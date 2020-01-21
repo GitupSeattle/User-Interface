@@ -72,42 +72,65 @@ body {
 
 .nav_bar {
    width: 100%;
+   
 }
 
 .nav_bar a {
     border: 2 grey;
 	margin: 3%;
+	color: grey;
+	text-decoration: none;
 }
 
 .contentbox1 {
 	display: inline-block;
-	padding: 5%;
-    width: 100%;
-		
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid;
 }
 .contentbox1 h1 {
 	font-size: 75px;
 }
-.contentbox1_{
+.contentbox1_ {
 	display: inline-block;
 }
 .contentbox1_content{
 	display: inline-block;
+	padding: 2%;
+	
 }
+ .contentbox1_content p{
+	border: 2px solid black;
+	text-align: center;
+	width: 40%;
+	margin: 10%;
+	font-size: 20px;
+	color: grey;
+ }
+
+
 .contentbox2_ {
-	border-top: 1px solid;
 	display: inline-block;
-	margin: 1%;
-    width: 30%;	
+	margin: 0%;
+	width: 46%;	
+	padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+	text-align: left;
 }
 .contentbox3_ {
 	display: inline-block;
-	margin: 1%;
-	width: 30%;	
-	border-bottom: 1px solid;
+	margin: 0%;
+	width: 31%;	
+	padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+	text-align: left;
 }
 
 .contact {
+	border-top: 1px solid;
 	padding: 20px 0;	
 }
 
